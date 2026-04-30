@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Robert-Sebastian Groza | IT Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="container nav-flex">
+    <div class="nav-actions">
+
+      <div class="theme-switcher">
+        <button id="themeBtn" class="top-btn" type="button">
+          <img id="themeIcon" src="icons/idea (1).png" class="mini-icon" alt="Theme">
+          <span id="themeLabel">Light</span>
+          <span>▼</span>
+        </button>
+
+        <div id="themeDropdown" class="dropdown">
+          <div class="dropdown-item theme-option" data-theme="light">
+            <img src="icons/idea (1).png" class="mini-icon" alt="Light">
+            Light
+          </div>
+
+          <div class="dropdown-item theme-option" data-theme="dark">
+            <img src="icons/idea (2).png" class="mini-icon" alt="Dark">
+            Dark
+          </div>
+        </div>
+      </div>
+
+      <div class="lang-switcher">
+        <button id="langBtn" class="top-btn" type="button">
+          <img id="langFlag" src="icons/german-flag.png" class="mini-icon flag-icon" alt="Deutsch">
+          <span id="langLabel">Deutsch</span>
+          <span>▼</span>
+        </button>
+
+        <div id="langDropdown" class="dropdown">
+          <div class="dropdown-item lang-option" data-lang="de">
+            <img src="icons/german-flag.png" class="mini-icon flag-icon" alt="Deutsch">
+            Deutsch
+          </div>
+
+          <div class="dropdown-item lang-option" data-lang="en">
+            <img src="icons/united-kingdom.png" class="mini-icon flag-icon" alt="English">
+            English
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<section class="hero">
+
+<h1 class="hero-title">Robert-Sebastian Groza</h1>
+
+<p class="hero-subtitle" data-i18n="hero_subtitle">
+Fachinformatiker für Anwendungsentwicklung
+</p>
+
+<div class="contact-card">
+
+<div class="contact-item">
+<button class="contact-btn" onclick="toggleInfo('emailInfo')" type="button">
+<img src="icons/mail.png" class="contact-icon" alt="Email">
+</button>
+<span id="emailInfo" class="contact-info">grozarobertsebastian@gmail.com</span>
+</div>
+
+<div class="contact-item">
+<button class="contact-btn" onclick="toggleInfo('phoneInfo')" type="button">
+<img src="icons/telephone.png" class="contact-icon" alt="Phone">
+</button>
+<span id="phoneInfo" class="contact-info">+49 157 35777873</span>
+</div>
+
+<div class="contact-item">
+<button class="contact-btn" onclick="toggleInfo('ageInfo')" type="button">
+<img src="icons/circle.png" class="contact-icon" alt="Age">
+</button>
+<span id="ageInfo" class="contact-info">26 Jahre</span>
+</div>
+
+<div class="contact-item">
+<button class="contact-btn" onclick="toggleInfo('addressInfo')" type="button">
+<img src="icons/location.png" class="contact-icon" alt="Location">
+</button>
+<span id="addressInfo" class="contact-info">Kiel Germany</span>
+</div>
+
+</div>
+</section>
+
+<nav class="main-nav">
+
+<button class="nav-btn active-btn" data-section="about" data-i18n="btn_about">
+Über Mich
+</button>
+
+<button class="nav-btn" data-section="skills" data-i18n="btn_skills">
+Technische Skills
+</button>
+
+<button class="nav-btn" data-section="lua" data-i18n="btn_lua">
+Lua Projekt
+</button>
+
+<button class="nav-btn" data-section="beruf" data-i18n="btn_beruf">
+Berufserfahrung
+</button>
+
+<button class="nav-btn" data-section="sprachen" data-i18n="btn_sprachen">
+Sprachen
+</button>
+
+</nav>
+
+<section id="about" class="content-section card active">
+
+<h2 data-i18n="about_title">Über Mich</h2>
+
+<p data-i18n="about_1">
+Computer und Technik begleiten mich schon seit meiner Kindheit Ich war schon früh viel am PC und wollte immer verstehen wie Systeme und Programme funktionieren
+</p>
+
+<p data-i18n="about_2">
+Besonders das Programmieren hat mich schnell begeistert Viele Dinge habe ich mir selbst beigebracht weil ich gerne eigene Lösungen entwickle
+</p>
+
+<p data-i18n="about_3">
+Gaming war immer ein großes Hobby von mir Dadurch ist meine Leidenschaft für Computer noch stärker geworden
+</p>
+
+<p data-i18n="about_4">
+Mein Ziel war schon lange beruflich in die IT zu gehen Deshalb habe ich mich bewusst für den Weg zum Fachinformatiker entschieden
+</p>
+
+</section>
+
+<section id="skills" class="content-section card">
+
+<h2 data-i18n="skills_title">Technische Kenntnisse</h2>
+
+<div class="skills-grid">
+
+<div class="skills-column">
+<h3 data-i18n="skills_dev">Entwicklung</h3>
+
+<ul>
+<li data-i18n="skills_left_1"></li>
+<li data-i18n="skills_left_2"></li>
+<li data-i18n="skills_left_3"></li>
+<li data-i18n="skills_left_4"></li>
+<li data-i18n="skills_left_5"></li>
+<li data-i18n="skills_left_6"></li>
+</ul>
+</div>
+
+<div class="skills-column">
+<h3 data-i18n="skills_tools">Tools & Systeme</h3>
+
+<ul>
+<li data-i18n="skills_right_1"></li>
+<li data-i18n="skills_right_2"></li>
+<li data-i18n="skills_right_3"></li>
+<li data-i18n="skills_right_4"></li>
+<li data-i18n="skills_right_5"></li>
+<li data-i18n="skills_right_6"></li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="lua" class="content-section card">
+
+<h2 data-i18n="lua_title">Lua Projekt</h2>
+
+<p data-i18n="lua_desc">
+Ich habe eigenständig ein größeres Lua Projekt entwickelt Dabei entstand ein komplettes System mit über 70 Scripts
+</p>
+
+<ul>
+<li data-i18n="lua_1">Modulare Struktur mit über 70 Scripts</li>
+<li data-i18n="lua_2">Eigene Systeme und Datenspeicherung</li>
+<li data-i18n="lua_3">Automatisierte Mechaniken</li>
+<li data-i18n="lua_4">Sauberer Aufbau und strukturierter Code</li>
+</ul>
+
+<div class="project-gallery">
+
+<div class="project-item">
+<img src="icons/proiect3.png" alt="Project 1">
+<h3 data-i18n="img1_title">World Design und Basesystem</h3>
+<p data-i18n="img1_desc">Große individuelle Spielwelt mit 6 personalisierten Basen</p>
+</div>
+
+<div class="project-item">
+<img src="icons/proiect2.png" alt="Project 2">
+<h3 data-i18n="img2_title">Economy Inventory Progression</h3>
+<p data-i18n="img2_desc">Eigenes Wirtschaftssystem mit Coins Rebirths Inventar und Fortschritt</p>
+</div>
+
+<div class="project-item">
+<img src="icons/proiect1.png" alt="Project 3">
+<h3 data-i18n="img3_title">Data Management Save Systems</h3>
+<p data-i18n="img3_desc">Eigenes Speichersystem für Daten Fortschritt Währungen und Serverdaten</p>
+</div>
+<div class="project-item">
+  <img src="icons/scripts.png" alt="Project Structure">
+  <h3 data-i18n="img4_title">Projektstruktur und Scripts</h3>
+  <p data-i18n="img4_desc">
+    Modular aufgebaute Scriptstruktur für Systeme UI und Datenverwaltung
+  </p>
+</div>
+</div>
+</section>
+
+<section id="beruf" class="content-section card">
+
+<h2 data-i18n="work_title">Berufserfahrung</h2>
+
+<ul>
+
+<li data-i18n="work_1">
+<strong>12 2025 bis 12 2027 WBS Training</strong><br>
+Umschulung zum Fachinformatiker für Anwendungsentwicklung
+</li>
+
+<li data-i18n="work_2">
+<strong>04 2020 bis 04 2025 Mercato Italiano Kiel</strong><br>
+Catering und Veranstaltungsmanager Planung Organisation Teamkoordination
+</li>
+
+<li data-i18n="work_3">
+<strong>2018 bis 2020 Veranstaltungstechnik Kappeln</strong><br>
+Technischer Support Windows Systeme Hardware Wartung
+</li>
+
+</ul>
+
+</section>
+
+<section id="sprachen" class="content-section card">
+
+<h2 data-i18n="lang_title">Sprachen</h2>
+
+<ul>
+<li data-i18n="lang_1">
+<img src="icons/german-flag.png" width="20"> Deutsch Verhandlungssicher
+</li>
+
+<li data-i18n="lang_2">
+<img src="icons/united-kingdom.png" width="20"> Englisch Verhandlungssicher
+</li>
+
+<li data-i18n="lang_3">
+<img src="icons/romania.png" width="20"> Rumänisch Muttersprache
+</li>
+
+<li data-i18n="lang_4">
+<img src="icons/italy.png" width="20"> Italienisch Sehr Gute Kenntnisse
+</li>
+</ul>
+
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+<span>© 00110010 00110000 00110010 00110110 00100000 01010010 01101111 01100010 01100101 01110010 01110100</span>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
