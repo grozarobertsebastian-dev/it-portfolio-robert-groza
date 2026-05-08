@@ -1,14 +1,14 @@
-# Robert-Sebastian Groza - Digitaler Lebenslauf
+# Robert-Sebastian Groza - Digitaler Lebenslauf #
 
 Dies ist meine persönliche Web-Präsentation im Format eines interaktiven Lebenslaufs, konzipiert für eine moderne und benutzerfreundliche Darstellung meiner Vita.
 
 
-## 🔗 Live-Ansicht
+## Live-Ansicht ##
 Der digitale Lebenslauf ist unter folgendem Link direkt verfügbar:  
 **[Zum interaktiven Lebenslauf](https://grozarobertsebastian-dev.github.io/it-portfolio-robert-groza/)**
 
 
-## Highlights & Funktionen
+## Highlights & Funktionen ##
 Das Projekt wurde mit Fokus auf Interaktivität und Barrierefreiheit entwickelt:
 
 **Mehrsprachigkeit:** Integrierte Umschaltung zwischen **Deutsch** und **Englisch**.
@@ -17,7 +17,7 @@ Das Projekt wurde mit Fokus auf Interaktivität und Barrierefreiheit entwickelt:
 **Technologien:** Puristisches HTML5, CSS3 und Vanilla JavaScript.
 
 
-## Projektstruktur
+## Projektstruktur ##
 * `index.html` - Inhalte und mehrsprachige Struktur.
 * `style.css` - Design-System und Theme-Definitionen.
 * `script.js` - Logik für Sprachwechsel und Modus-Steuerung.
