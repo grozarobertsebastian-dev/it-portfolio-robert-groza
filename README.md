@@ -1,5 +1,11 @@
 # Robert-Sebastian Groza - IT Portfolio
 
+## Installation
+
+1. Download or clone the repository
+2. Extract the ZIP file (if downloaded)
+3. Open `index.html` in your browser
+
 ## Projektbeschreibung
 Dies ist mein persönliches Portfolio für Bewerbungen im Bereich **Anwendungsentwicklung**. 
 Das Projekt demonstriert meine Fähigkeiten in der Webentwicklung und legt Wert auf ein modernes, responsives Design.
