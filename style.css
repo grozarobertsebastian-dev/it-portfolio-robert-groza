@@ -1,6 +1,6 @@
 :root{
-  --primary:#1976d2;
-  --primary-hover:#1565c0;
+  --primary:#3d516c;
+  --primary-hover:#3d516c;
 
   --bg:#f4f6f8;
   --surface:#ffffff;
@@ -19,8 +19,8 @@
 }
 
 body.dark{
-  --primary:#4f8cff;
-  --primary-hover:#3d78e0;
+  --primary:#3d516c;
+  --primary-hover:#3d516c;
 
   --bg:#0c0f14;
   --surface:#151920;
@@ -505,7 +505,7 @@ margin-top:20px;
 }
 
 .skills-column h3{
-color:#3b82f6;
+color:#3d516c;
 margin-bottom:15px;
 font-size:22px;
 }
